@@ -9,9 +9,6 @@
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -20,7 +17,7 @@
 <link href="styles/style2.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="height: auto !important">
 		<div class="row margin-bottom-20">
 			<div class="col-md-12">
 				<section id="cabecera">
@@ -28,54 +25,50 @@
 						<div id="imagen-evt">
 							<img src="https://alpogo-uploads-test.s3.us-east-2.amazonaws.com/eventos/famamusicavol3.jpeg" alt="">
 						</div>
-						<div id="info">
+                        <div id="info">
 							<div class="info-evento">
-								<h1><?php echo $evento['nombre']; ?></h1>
+								<h1>Nuevo Evento de la fiesta siniestrex</h1>
 								<div class="fecha">
 									<i class="fa fa-calendar-o fa-fw" aria-hidden="true"></i>
-								</div>
+									Desde el 22 de Diciembre al 23 de Diciembre								</div>
 
 								<div class="fecha">
 									<i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
-								</div>
+									990 Arte Club, Córdoba								</div>
 								
-								<div class="descripcion"><?php echo $evento['descripcion_corta']; ?></div>
+								<div class="descripcion"><p>Llega la fiesta mas siniestra del mundo</p></div>
 
 								<div class="btn-compra-evento">
-										<div id="comprar-boton">
-
-
-											<a class="btn btn-default btn-gris btn-neutro btn-disabled btn-finalizado" href="" role="button"> FINALIZADO </a>
-
-										
-										</div>
-
-
+																			<div id="comprar-boton">
+											
+												
+												
+												
+												 <a class="btn btn-default btn-gris btn-neutro btn-disabled btn-finalizado" href="" role="button"> SIN TICKETS DISPONIBLES </a> 
+																					</div>
+										<span class="label label-default restriccion">ATP</span>									
 								</div>
 
+								
 							</div>
 
 							<div class="info-evento info-mobile">
 
 								<div class="btn-compra-evento">
-
-										<div id="comprar-boton">
-                                            <a class="btn btn-default btn-gris btn-neutro btn-disabled btn-finalizado" href="" role="button"> FINALIZADO </a> 
-
-										</div>
-
-
+																			<div id="comprar-boton">
+											
+												
+												
+												
+												 <a class="btn btn-default btn-gris btn-neutro btn-disabled btn-finalizado" href="" role="button"> SIN TICKETS DISPONIBLES </a> 
+																					</div>
+										<span class="label label-default restriccion">ATP</span>									
 								</div>
-								<h1><?php echo $evento['nombre']; ?></h1>
+								<h1>Nuevo Evento de la fiesta siniestrex</h1>
 								
-								<div class="descripcion" style="color: #707070"><?php echo $evento['descripcion_corta']; ?></div>
+								<div class="descripcion" style="color: #707070"><p>Llega la fiesta mas siniestra del mundo</p></div>
 
-
-									<div id="comprar-boton">
-
-										<a class="btn btn-default btn-gris btn-neutro btn-disabled btn-finalizado" href="" role="button"> FINALIZADO </a>
-									</div>
-
+								
 							</div>
 						</div>
 					</div>
