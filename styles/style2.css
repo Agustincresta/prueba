@@ -1,0 +1,309 @@
+/* Colores */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Vars */
+/* X-Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    body.notificacion-activa {
+      margin-top: 23px; }
+  
+    header {
+      height: 80px; }
+      header.notificacion-activa {
+        top: 75px; }
+      header .fondo-container {
+        height: 80px; }
+      header .logo img {
+        height: 40px; }
+      header #botones-responsivos {
+        padding-top: 20px; }
+  
+    #recomendaciones .recomendacion {
+      margin-bottom: 15px;
+      text-align: center; }
+  
+    #cabecera {
+      background-position: center center;
+      background-size: cover; }
+      #cabecera .info-evento {
+        background-color: transparent;
+        height: auto; }
+        #cabecera .info-evento #descripcion {
+          height: auto; }
+        #cabecera .info-evento .btn-compra-evento {
+          justify-content: center; }
+      #cabecera #pie-cabecera {
+        text-align: center; }
+        #cabecera #pie-cabecera #comprar-boton {
+          margin-bottom: 15px; }
+        #cabecera #pie-cabecera .promo {
+          margin-bottom: 20px; }
+        #cabecera #pie-cabecera #col-rs {
+          text-align: center; }
+          #cabecera #pie-cabecera #col-rs #redes-sociales {
+            text-align: center;
+            width: 100%; }
+      #cabecera #pasos .paso {
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-align: left; }
+        #cabecera #pasos .paso:last-child {
+          margin-bottom: 0; }
+  
+    #buscador-responsivo .easy-autocomplete-container ul {
+      margin-left: 0;
+      width: 100%; }
+      #buscador-responsivo .easy-autocomplete-container ul li div.evento-resultado .imagen,
+      #buscador-responsivo .easy-autocomplete-container ul .eac-category div.evento-resultado .imagen {
+        margin-right: 5%;
+        width: 20%; }
+      #buscador-responsivo .easy-autocomplete-container ul li div.evento-resultado .info,
+      #buscador-responsivo .easy-autocomplete-container ul .eac-category div.evento-resultado .info {
+        width: 75%; }
+  
+    #destacados {
+      margin-top: -10px;
+      height: 350px; }
+  
+    section#destacados .destacado-item .destacado-cont {
+      padding: 75px 25px;   
+      }
+      section#destacados .destacado-item .destacado-cont .datos {
+        padding: 0; }
+        section#destacados .destacado-item .destacado-cont .datos .cabecera .imagen {
+          margin-right: 0;
+          padding-right: 10px;
+          width: 25%; }
+          section#destacados .destacado-item .destacado-cont .datos .cabecera .imagen img {
+            height: auto; }
+        section#destacados .destacado-item .destacado-cont .datos .cabecera .info h2 {
+          font-size: 18px; }
+        section#destacados .destacado-item .destacado-cont .datos .cabecera .info p {
+          font-size: 10px; }
+  
+    #proximos #proximos-eventos .proximo-ev {
+      max-width: 45%;
+      margin-bottom: 10px; }
+  
+    #grilla-home .evento .imagen img,
+    #grilla-relacionados .evento .imagen img {
+      width: 100%;
+    }
+  
+    #encuestas .enmarcado {
+      margin-bottom: 20px;
+      text-align: center; }
+      #encuestas .enmarcado.ultimo {
+        margin-bottom: 0; }
+      #encuestas .enmarcado .icono {
+        margin-bottom: 10px; }
+      #encuestas .enmarcado .cuerpo {
+        width: auto; }
+  
+    #banner-app {
+      text-align: center; }
+      #banner-app .btn-cont {
+        padding: 30px 0; }
+  
+    footer {
+      text-align: center; }
+      footer #footer-sup .logo-pie,
+      footer #footer-sup .menu-footer,
+      footer #footer-sup .rrss {
+        margin-bottom: 20px; }
+      footer #footer-sup .logos-externos {
+        text-align: center; }
+      footer #footer-inf .menu-horizontal {
+        margin-bottom: 15px; }
+      footer #footer-inf .texto-copy {
+        text-align: center; }
+  
+    /* COMPRAR ENTRADAS */
+    #comprar-entrada .row-eq-height {
+      display: block; }
+    #comprar-entrada #cantidad {
+      margin-left: 0; }
+    #comprar-entrada #total-entradas {
+      margin-left: 0; }
+    #comprar-entrada #resultado-compra #datos-evento {
+      margin-bottom: 20px; }
+  
+    /* LISTA ASISTENTES */
+    #lista-asistencia #numeros-ingresos {
+      text-align: left; }
+  
+    /* ARTISTA */
+    #artista #cabecera #cabecera-artista {
+      margin-top: 0; }
+    #artista #cabecera #redes-sociales-cont {
+      height: auto;
+      margin-top: 20px; }
+      #artista #cabecera #redes-sociales-cont #redes-sociales {
+        position: relative; }
+  
+    /* POGOMETRO */
+    #pogometro-page #lista-eventos .imagen {
+      margin-bottom: 10px;
+      text-align: center; }
+    #pogometro-page #lista-eventos .datos {
+      text-align: center; }
+    #pogometro-page #lista-eventos .fecha {
+      margin-bottom: 10px;
+      text-align: center; }
+    #pogometro-page #lista-eventos .botones {
+      text-align: center; } }
+  @media (min-width: 644px) and (max-width: 767px) {
+    header.notificacion-activa {
+      top: 53px; }
+      #cabecera .info-evento {
+        background-color: transparent;
+        padding: 10px; }
+    body.notificacion-activa {
+      margin-top: 45px; } } 
+  @media (min-width: 430px) and (max-width: 644px) {
+    section#destacados .destacado-item .destacado-cont {
+      padding: 30px 25px;   
+      }
+    body.notificacion-activa {
+      margin-top: 45px; }
+      #cabecera .info-evento {
+        background-color: transparent;
+        padding: 10px; } }
+  @media (min-width: 550px) and (max-width: 767px) {
+    section#destacados .destacado-item .destacado-cont {
+      padding: 70px 25px;   
+  }}  
+  @media (max-width: 429px) {
+    section#destacados .destacado-item .destacado-cont {
+      padding: 20px 25px;   
+      }
+    header.notificacion-activa {
+      top: 97px; }
+  
+    body.notificacion-activa {
+      margin-top: 67px; } }
+  @media (max-width: 600px) {
+    .caja-img {
+      flex-wrap: wrap;
+      box-shadow: none
+    }
+    #cabecera .info-evento {
+      display: none;  
+    }
+    #cabecera .info-mobile {
+      display: block;  
+    }
+    #cabecera .info-mobile .btn-compra-evento #comprar-boton,
+    #cabecera .info-mobile .btn-compra-evento #comprar-boton a{
+      width: 100%;
+    }
+    #cabecera .info-mobile{
+      padding: 0px;
+    }
+    #cabecera .info-mobile .btn-compra-evento{
+      padding: 20px 0px;
+    }
+    #cabecera #imagen-evt,
+    #cabecera #info {
+      width: 100%;
+      background-color: transparent;
+  }
+  }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    #cabecera {
+      background-position: center center;
+      background-size: cover; }
+      #cabecera .info-evento {
+        background-color: transparent;
+        padding: 14px; }
+  
+    header .opciones .buscador {
+      margin-right: 30px; }
+      header .opciones .buscador .buscador-input input {
+        max-width: 100px; }
+    section#destacados .destacado-item .destacado-cont {
+      padding: 50px 25px;   
+      }
+  
+    #encuestas .enmarcado {
+      margin-bottom: 20px; }
+      #encuestas .enmarcado.ultimo {
+        margin-bottom: 0; }
+      #encuestas .enmarcado .cuerpo {
+        width: 415px; }
+  
+    footer #footer-sup .rrss {
+      text-align: left; }
+      footer #footer-sup .rrss a {
+        margin-bottom: 5px; }
+    footer #footer-inf .menu-horizontal {
+      text-align: center; }
+    footer #footer-inf .texto-copy {
+      text-align: center; }
+  
+    /* COMPRAR ENTRADAS */
+    #comprar-entrada .row-eq-height {
+      display: block; }
+    #comprar-entrada #resultado-compra #datos-evento {
+      margin-bottom: 20px; }
+  
+    /* LISTA ASISTENTES */
+    #lista-asistencia #numeros-ingresos {
+      text-align: left; }
+  
+    /* POGOMETRO */
+    #pogometro-page #lista-eventos .imagen {
+      margin-bottom: 10px;
+      text-align: center; }
+    #pogometro-page #lista-eventos .datos {
+      text-align: center; }
+    #pogometro-page #lista-eventos .fecha {
+      margin-bottom: 10px;
+      text-align: center; }
+    #pogometro-page #lista-eventos .botones {
+      text-align: center; }
+  
+    #proximos #proximos-eventos .proximo-ev {
+      max-width: 30%;
+      margin-bottom: 10px; } }
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    header .opciones .buscador {
+      margin-right: 20px; }
+      header .opciones .buscador .buscador-input {
+        width: 175px; }
+    header .opciones .perfil #pogometro {
+      margin-right: 15px; }
+    header .opciones .perfil #mis-entradas {
+      margin-right: 15px; }
+    #grilla-relacionados .eventos .evento:last-child {
+      display: none; }
+    #encuestas .enmarcado {
+      margin-bottom: 20px;
+      text-align: center; }
+      #encuestas .enmarcado.ultimo {
+        margin-bottom: 0; }
+      #encuestas .enmarcado .icono {
+        margin-bottom: 10px; } }
+  /* Large devices (large desktops, 1200px and up) */
+  
+  @media (max-width: 768px) {
+    .eventos .col-sm-6 {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .eventos .col-sm-6 {
+      width: 100%;
+    }
+  
+    #cabecera #imagen-evt img{
+      border-radius: 4px;
+    }
+    
+    #cabecera #imagen-evt {
+      min-width: 0px;
+    }
+  }

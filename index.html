@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <link href="styles/style2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+		<div class="row margin-bottom-20">
+			<div class="col-md-12">
+				<section id="cabecera">
+					<div class="row row-no-padding caja-img">
+						<div id="imagen-evt">
+							<img src="https://alpogo-uploads-test.s3.us-east-2.amazonaws.com/eventos/famamusicavol3.jpeg" alt="">
+						</div>
+						<div id="info">
+							<div class="info-evento">
+								<h1><?php echo $evento['nombre']; ?></h1>
+								<div class="fecha">
+									<i class="fa fa-calendar-o fa-fw" aria-hidden="true"></i>
+								</div>
+
+								<div class="fecha">
+									<i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
+								</div>
+								
+								<div class="descripcion"><?php echo $evento['descripcion_corta']; ?></div>
+
+								<div class="btn-compra-evento">
+										<div id="comprar-boton">
+
+
+											<a class="btn btn-default btn-gris btn-neutro btn-disabled btn-finalizado" href="" role="button"> FINALIZADO </a>
+
+										
+										</div>
+
+
+								</div>
+
+							</div>
+
+							<div class="info-evento info-mobile">
+
+								<div class="btn-compra-evento">
+
+										<div id="comprar-boton">
+                                            <a class="btn btn-default btn-gris btn-neutro btn-disabled btn-finalizado" href="" role="button"> FINALIZADO </a> 
+
+										</div>
+
+
+								</div>
+								<h1><?php echo $evento['nombre']; ?></h1>
+								
+								<div class="descripcion" style="color: #707070"><?php echo $evento['descripcion_corta']; ?></div>
+
+
+									<div id="comprar-boton">
+
+										<a class="btn btn-default btn-gris btn-neutro btn-disabled btn-finalizado" href="" role="button"> FINALIZADO </a>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+    </div>
+</body>
+</html>
